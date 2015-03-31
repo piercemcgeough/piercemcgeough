@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pierce McGeough</title>
+
+  <link href="stylesheets/stylesheet.css" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Pierce McGeough</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/about">About</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Kickboxing<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="/kickboxing">Logout</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Web Development<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="/web-dev">Logout</a></li>
+            </ul>
+          </li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section id="main_content" class="inner">
+        <h3>Hi Ceili</h3>
+        <p>I thought throwing this page together will help give you a better understanding on what I have done and I need to do etc... Hopefully it will be easier to read than in the message box.</p>
+
+        <h3>What I want to achieve</h3>
+        <p>I want to run a few sites that I have on Digital Ocean.</p>
+        <p>
+          <strong>Is there an easy way to do this with Homestead (or something different if you recommend)?</strong><br>
+          Just run the box like i do in vagrant?
+        </p>
+        <p>Get my current DO site to use a domain name. I am currently using an IP for a site <a href="http://104.236.27.195/">http://104.236.27.195/</a></p>
+        <p>I would like to deploy via Git, I just Bitbucket for private personal sites.</p>
+        <p>
+          Understand GitFlow workflow with others. (Maybe leave this for a seperate session)?<br>
+          <em>We currently use SVN in work and looking to upgrade. I can follow these single Git tutorials OK but the idea working with a group confuses and scares me.</em>
+        </p>
+
+        
+        <h3>What I have done</h3>
+        <p>I currently have two wordpress sites that I developed locally on MAMP and are hosted on shared hosting</p>
+        <p>I also have 1 Laravel app (static site using laravel) using Vagrant and Homestead locally, and hosted on DO but not properly configured.</p>
+        <p><em>As far as I am aware I should be able to run my local WP sites through vagrant & homestead, but have just never gotten around to it.</em></p>
+
+        <h3>DO Setup</h3>
+        <p>I've linked my DO setup here.  I asked about it on StackOverflow. <a href="http://stackoverflow.com/questions/26933476/setup-laravel-app-on-digitalocen">My SO question inc DO setup</a>.  Note I also used the answer selected.</p>
+        <p>I was switching between 2 tutorials. The main one was by <a href="https://www.youtube.com/watch?v=1-ok9d_6xrc">PHP Academy</a> and then <a href="https://www.digitalocean.com/community/tutorials/how-to-install-laravel-with-nginx-on-an-ubuntu-12-04-lts-vps">Digital Oceans</a></p>
+        
+        <h3>My Git folders/files</h3>
+        <p>This is my local and Bitbucket setup. For the purpose of deploying.....I think. My root repo is not the folder I want live. I want a sub folder live. <br><em>because I will only want my app folder live.</em></p>
+<pre>
+<code>
+sitename
+  - design (folder with design related items i.e. content, database sql files, site design, etc..)    
+  - app (root of application - laravel, wordpress, etc...)
+</code>
+</pre>
+      </section>
+  </div>
+
+  <!-- Scripts -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
