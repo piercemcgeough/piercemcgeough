@@ -3,14 +3,6 @@ layout: default
 title: Home
 ---  
 
-<h1>Posts</h1>
-
-{% for post in site.categories['jekyll'] %}
-    <li>{{ post.title }}</li>
-{% endfor %}
-
-<hr>
-
 <ul class="post-list">
 	{% for post in site.posts %}
 		<li>
