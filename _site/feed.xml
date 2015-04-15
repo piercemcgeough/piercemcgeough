@@ -4,10 +4,10 @@
     <title>Pierce McGeough</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://piercemcgeough.co.uk/</link>
-    <atom:link href="http://piercemcgeough.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Mar 2015 22:53:19 +0000</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2015 22:53:19 +0000</lastBuildDate>
+    <link>http://piercemcgeough.github.io/piercemcgeough//</link>
+    <atom:link href="http://piercemcgeough.github.io/piercemcgeough//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 15 Apr 2015 13:53:36 +0100</pubDate>
+    <lastBuildDate>Wed, 15 Apr 2015 13:53:36 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Fri, 20 Mar 2015 20:59:52 +0000</pubDate>
-        <link>http://piercemcgeough.co.uk/jekyll/update/2015/03/20/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.co.uk/jekyll/update/2015/03/20/welcome-to-jekyll.html</guid>
+        <link>http://piercemcgeough.github.io/piercemcgeough//jekyll/update/2015/03/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//jekyll/update/2015/03/20/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -39,27 +39,12 @@
       </item>
     
       <item>
-        <title>Happy 2015</title>
-        <description>&lt;p&gt;Happy new year all&lt;/p&gt;
-</description>
-        <pubDate>Fri, 20 Mar 2015 20:59:52 +0000</pubDate>
-        <link>http://piercemcgeough.co.uk/new%20year/happy/2015/03/20/happy-2015.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.co.uk/new%20year/happy/2015/03/20/happy-2015.html</guid>
-        
-        
-        <category>new year</category>
-        
-        <category>happy</category>
-        
-      </item>
-    
-      <item>
         <title>Junior National Championships</title>
-        <description>&lt;p&gt;Sunday 20th March saw the Leixslip a&lt;/p&gt;
+        <description>
 </description>
         <pubDate>Fri, 20 Mar 2015 12:00:00 +0000</pubDate>
-        <link>http://piercemcgeough.co.uk/kickboxing/hype/2015/03/20/kbi-juniors.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.co.uk/kickboxing/hype/2015/03/20/kbi-juniors.html</guid>
+        <link>http://piercemcgeough.github.io/piercemcgeough//kickboxing/hype/2015/03/20/kbi-juniors.html</link>
+        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//kickboxing/hype/2015/03/20/kbi-juniors.html</guid>
         
         
         <category>kickboxing</category>
