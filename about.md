@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Hi there, I'm Pierce. THis is my blog. I am a web developer and kickboxer based in Newry Co. Down. 
+Hi there, my name is Pierce. I am a web developer and kickboxer based in Newry Co. Down. 
 
 ## Web Development
 I started my web development career just after finishing my BTEC National Diploma with the [SRC Newry](http://www.src.ac.uk). I completed a summer work placement with a small web company in Newry called Northern Web Technologies. Here, after being thrown into the deep end, I found the joys of the challenge of building websites based on a set out design. 
