@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Junior National Championships
+title:  AngularJs
 date:   2015-06-09 12:00:00
-categories: [kickboxing, hype]
+categories: [web]
 ---
 
 AngularJS Stuff

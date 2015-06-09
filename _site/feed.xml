@@ -6,12 +6,12 @@
 </description>
     <link>http://piercemcgeough.github.io/piercemcgeough//</link>
     <atom:link href="http://piercemcgeough.github.io/piercemcgeough//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2015 17:23:48 +0100</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2015 17:23:48 +0100</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2015 17:24:36 +0100</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2015 17:24:36 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Junior National Championships</title>
+        <title>AngularJs</title>
         <description>&lt;p&gt;AngularJS Stuff&lt;/p&gt;
 
 &lt;h1 id=&quot;angularjs&quot;&gt;AngularJS&lt;/h1&gt;
@@ -45,13 +45,11 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 09 Jun 2015 13:00:00 +0100</pubDate>
-        <link>http://piercemcgeough.github.io/piercemcgeough//kickboxing/hype/2015/06/09/angularjs.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//kickboxing/hype/2015/06/09/angularjs.html</guid>
+        <link>http://piercemcgeough.github.io/piercemcgeough//web/2015/06/09/angularjs.html</link>
+        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//web/2015/06/09/angularjs.html</guid>
         
         
-        <category>kickboxing</category>
-        
-        <category>hype</category>
+        <category>web</category>
         
       </item>
     
