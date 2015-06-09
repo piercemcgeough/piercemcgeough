@@ -23,8 +23,7 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 ##Extends HTML
 * `ng-app` - defines an Angular JS app
 * `ng-model` - binds the HTML value to app data
-* `ng-bind` - binds app data to HTML
-
+* `ng-bind` - binds app data to HTML:
 
 	    <div ng-app="">
 	        <p>Name: <input type="text" ng-model="name"></p>

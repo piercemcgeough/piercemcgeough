@@ -6,8 +6,8 @@
 </description>
     <link>http://piercemcgeough.github.io/piercemcgeough//</link>
     <atom:link href="http://piercemcgeough.github.io/piercemcgeough//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2015 17:25:11 +0100</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2015 17:25:11 +0100</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2015 17:28:28 +0100</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2015 17:28:28 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -35,7 +35,7 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
   &lt;li&gt;&lt;code&gt;ng-app&lt;/code&gt; - defines an Angular JS app&lt;/li&gt;
   &lt;li&gt;&lt;code&gt;ng-model&lt;/code&gt; - binds the HTML value to app data&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;ng-bind&lt;/code&gt; - binds app data to HTML&lt;/p&gt;
+    &lt;p&gt;&lt;code&gt;ng-bind&lt;/code&gt; - binds app data to HTML:&lt;/p&gt;
 
     &lt;pre&gt;&lt;code&gt;  &amp;lt;div ng-app=&quot;&quot;&amp;gt;
       &amp;lt;p&amp;gt;Name: &amp;lt;input type=&quot;text&quot; ng-model=&quot;name&quot;&amp;gt;&amp;lt;/p&amp;gt;
