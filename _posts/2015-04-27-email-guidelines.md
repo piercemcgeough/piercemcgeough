@@ -2,7 +2,8 @@
 layout: post
 title:  Guidelines for sending email
 date:   2015-04-27 12:00:00
-categories: [web]
+categories: [web-development, general]
+tags: [email, responsive-email]
 ---
 
 The following is a revision from a talk by at Smashing Conf Oxford 2014. 

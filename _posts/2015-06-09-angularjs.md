@@ -2,12 +2,10 @@
 layout: post
 title:  AngularJs
 date:   2015-06-09 12:00:00
-categories: [web]
+categories: [web-development, tutorial]
+published: true
 ---
 
-AngularJS Stuff
-
-#AngularJS
 AngularJS is a JavaScript framework. It can be added to an HTML page with a `<script>` tag.
 AngularJS extends HTML attributes with Directives, and binds data to HTML with Expressions.
 

@@ -6,16 +6,13 @@
 </description>
     <link>http://piercemcgeough.github.io/piercemcgeough//</link>
     <atom:link href="http://piercemcgeough.github.io/piercemcgeough//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2015 17:28:59 +0100</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2015 17:28:59 +0100</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2015 00:57:42 +0100</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2015 00:57:42 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>AngularJs</title>
-        <description>&lt;p&gt;AngularJS Stuff&lt;/p&gt;
-
-&lt;h1 id=&quot;angularjs&quot;&gt;AngularJS&lt;/h1&gt;
-&lt;p&gt;AngularJS is a JavaScript framework. It can be added to an HTML page with a &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag.
+        <description>&lt;p&gt;AngularJS is a JavaScript framework. It can be added to an HTML page with a &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag.
 AngularJS extends HTML attributes with Directives, and binds data to HTML with Expressions.&lt;/p&gt;
 
 &lt;h2 id=&quot;javascript-framework&quot;&gt;JavaScript Framework&lt;/h2&gt;
@@ -46,11 +43,13 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 09 Jun 2015 13:00:00 +0100</pubDate>
-        <link>http://piercemcgeough.github.io/piercemcgeough//web/2015/06/09/angularjs.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//web/2015/06/09/angularjs.html</guid>
+        <link>http://piercemcgeough.github.io/piercemcgeough//web-development/tutorial/2015/06/09/angularjs.html</link>
+        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//web-development/tutorial/2015/06/09/angularjs.html</guid>
         
         
-        <category>web</category>
+        <category>web-development</category>
+        
+        <category>tutorial</category>
         
       </item>
     
@@ -125,11 +124,17 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 &lt;p&gt;&lt;strong&gt;Monthly Newsletter&lt;/strong&gt; – This is a Read Me type email but once again because of its nature of being a Monthly Newsletter we can change the content slightly and introduce some Buy Me and Join Me elements too. When working with sections let us remember to keep the content easy to read using a nice typeface and meaningful images if we use them.&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Apr 2015 13:00:00 +0100</pubDate>
-        <link>http://piercemcgeough.github.io/piercemcgeough//web/2015/04/27/email-guidelines.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//web/2015/04/27/email-guidelines.html</guid>
+        <link>http://piercemcgeough.github.io/piercemcgeough//web-development/general/2015/04/27/email-guidelines.html</link>
+        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//web-development/general/2015/04/27/email-guidelines.html</guid>
+        
+        <category>email</category>
+        
+        <category>responsive-email</category>
         
         
-        <category>web</category>
+        <category>web-development</category>
+        
+        <category>general</category>
         
       </item>
     
@@ -151,13 +156,13 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 
 </description>
         <pubDate>Fri, 20 Mar 2015 20:59:52 +0000</pubDate>
-        <link>http://piercemcgeough.github.io/piercemcgeough//jekyll/update/2015/03/20/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//jekyll/update/2015/03/20/welcome-to-jekyll.html</guid>
+        <link>http://piercemcgeough.github.io/piercemcgeough//web-development/general/2015/03/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//web-development/general/2015/03/20/welcome-to-jekyll.html</guid>
         
         
-        <category>jekyll</category>
+        <category>web-development</category>
         
-        <category>update</category>
+        <category>general</category>
         
       </item>
     
