@@ -1,0 +1,19 @@
+---
+layout: page
+title: Web Development
+permalink: /web-development/
+---  
+
+<ul class="post-list">
+
+	{% for post in site.categories.web-development %}
+		<li>
+			<h2>
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} - {% for category in post.categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+			{{ post.excerpt }}
+		</li>
+	{% endfor %}
+
+</ul>

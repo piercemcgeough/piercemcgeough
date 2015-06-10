@@ -8,12 +8,11 @@
 
 
 
-	<title>Pierce McGeough &ndash; Home</title>
-	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-">
+	<title>Pierce McGeough &ndash; AngularJs</title>
+	<meta name="description" content="AngularJS is a JavaScript framework. It can be added to an HTML page with a &lt;script&gt; tag.AngularJS extends HTML attributes with Directives, and binds d...">
 
 	<link rel="stylesheet" href="http://piercemcgeough.github.io/piercemcgeough/css/main.css">
-	<link rel="canonical" href="http://piercemcgeough.github.io/piercemcgeough//">
+	<link rel="canonical" href="http://piercemcgeough.github.io/piercemcgeough//web-development/tutorial/2015/06/09/angularjs.html">
 
 	<link rel="alternate" type="application/rss+xml" title="Pierce McGeough" href="http://piercemcgeough.github.io/piercemcgeough//feed.xml" />
 </head>
@@ -66,49 +65,48 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
-				<ul class="post-list">
-	
-		<li>
-			<h2>
-				<a class="post-link" href="/web-development/tutorial/2015/06/09/angularjs.html">AngularJs</a>
-			</h2>
-			<span class="post-meta"> 9 Jun, 2015 - web-development, tutorial</span>
-			<p>AngularJS is a JavaScript framework. It can be added to an HTML page with a <code>&lt;script&gt;</code> tag.
+				<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">AngularJs</h1>
+    <p class="post-meta">9 Jun, 2015 - web-development, tutorial</p>
+  </header>
+
+  <article class="post-content">
+    <p>AngularJS is a JavaScript framework. It can be added to an HTML page with a <code>&lt;script&gt;</code> tag.
 AngularJS extends HTML attributes with Directives, and binds data to HTML with Expressions.</p>
 
+<h2 id="javascript-framework">JavaScript Framework</h2>
+<ul>
+  <li>is a JavaScript framework</li>
+  <li>
+    <p>add with a script</p>
 
-		</li>
-	
-		<li>
-			<h2>
-				<a class="post-link" href="/web-development/general/2015/04/27/email-guidelines.html">Guidelines for sending email</a>
-			</h2>
-			<span class="post-meta"> 27 Apr, 2015 - web-development, general</span>
-			<p>The following is a revision from a talk by at Smashing Conf Oxford 2014.</p>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  </li>
+  <li>extends HTML with new attributes</li>
+  <li>perfect for Single Page Applications (SPAs)</li>
+</ul>
 
+<h2 id="extends-html">Extends HTML</h2>
+<ul>
+  <li><code>ng-app</code> - defines an Angular JS app</li>
+  <li><code>ng-model</code> - binds the HTML value to app data</li>
+  <li>
+    <p><code>ng-bind</code> - binds app data to HTML:</p>
 
-		</li>
-	
-		<li>
-			<h2>
-				<a class="post-link" href="/web-development/general/2015/03/20/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-			</h2>
-			<span class="post-meta"> 20 Mar, 2015 - web-development, general</span>
-			<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <pre><code>  &lt;div ng-app=""&gt;
+      &lt;p&gt;Name: &lt;input type="text" ng-model="name"&gt;&lt;/p&gt;
+      &lt;p ng-bind="name"&gt;&lt;/p&gt;
+  &lt;/div&gt;
+</code></pre>
+  </li>
+</ul>
 
+  </article>
 
-		</li>
-	
-		<li>
-			<h2>
-				<a class="post-link" href="/kickboxing/general/2015/03/20/kbi-juniors.html">Junior National Championships</a>
-			</h2>
-			<span class="post-meta"> 20 Mar, 2015 - kickboxing, general</span>
-			
-
-		</li>
-	
-</ul>				
+</div>
+				
 			</div>
 
 			<!-- <div class="col-lg-3">

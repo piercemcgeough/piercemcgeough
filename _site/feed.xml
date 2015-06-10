@@ -6,8 +6,8 @@
 </description>
     <link>http://piercemcgeough.github.io/piercemcgeough//</link>
     <atom:link href="http://piercemcgeough.github.io/piercemcgeough//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jun 2015 00:57:42 +0100</pubDate>
-    <lastBuildDate>Wed, 10 Jun 2015 00:57:42 +0100</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2015 11:39:24 +0100</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2015 11:39:24 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -171,13 +171,17 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
         <description>
 </description>
         <pubDate>Fri, 20 Mar 2015 12:00:00 +0000</pubDate>
-        <link>http://piercemcgeough.github.io/piercemcgeough//kickboxing/hype/2015/03/20/kbi-juniors.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//kickboxing/hype/2015/03/20/kbi-juniors.html</guid>
+        <link>http://piercemcgeough.github.io/piercemcgeough//kickboxing/general/2015/03/20/kbi-juniors.html</link>
+        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//kickboxing/general/2015/03/20/kbi-juniors.html</guid>
+        
+        <category>national-championsips</category>
+        
+        <category>juniors</category>
         
         
         <category>kickboxing</category>
         
-        <category>hype</category>
+        <category>general</category>
         
       </item>
     
