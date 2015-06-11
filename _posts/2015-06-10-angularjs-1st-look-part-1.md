@@ -17,7 +17,9 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 * is a JavaScript framework
 * add with a script
 
-```<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>```
+```html
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+```
 
 * extends HTML with new attributes
 * perfect for Single Page Applications (SPAs)
@@ -27,7 +29,7 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 * `ng-model` - binds the HTML value to app data
 * `ng-bind` - binds app data to HTML
 
-```
+```html
 <div ng-app="">
     <p>Name: <input type="text" ng-model="name"></p>
     <p ng-bind="name"></p>
@@ -39,7 +41,7 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 ##AngularJS Directives
 Directives are HTML attributes with an `ng` prefix. Use `ng-init` to initialise variables.
 
-```
+```html
 <div ng-app="" ng-init="firstName='John'">
     <p ng-bind="firstName"></p>
 </div>
