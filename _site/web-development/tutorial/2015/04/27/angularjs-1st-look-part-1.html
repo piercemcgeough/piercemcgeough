@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+	<title>Pierce McGeough &ndash; AngularJs - 1st look, part 1</title>
+	<meta name="description" content="This is my own personal first look into AngularJS. After seeing it crop up many times over the past year I finally decided to have a look and see if it is of...">
+
+	<link rel="stylesheet" href="http://piercemcgeough.github.io/piercemcgeough/css/main.css">
+	<link rel="canonical" href="http://piercemcgeough.github.io/piercemcgeough//web-development/tutorial/2015/04/27/angularjs-1st-look-part-1.html">
+
+	<link rel="alternate" type="application/rss+xml" title="Pierce McGeough" href="http://piercemcgeough.github.io/piercemcgeough//feed.xml" />
+</head>
+
+
+<body>
+
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <!-- <img src="/img/logo.png" style="height: 80px;" alt=""> -->
+        Pierce McGeough
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Kickboxing<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/kickboxing">All</a></li>
+            <li><a href="/kickboxing/general" >General</a></li>
+            <li><a href="/kickboxing">Nutrition</a></li>
+            <li><a href="/kickboxing/workouts">Workouts</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Web Development<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/web-development">All</a></li>
+            <li><a href="/web-development/general">General</a></li>
+            <li><a href="/web-development/tutorials">Tutorials</a></li>
+          </ul>
+        </li>
+        <!-- <li><a href="/contact">Contact</a></li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">AngularJs - 1st look, part 1</h1>
+    <p class="post-meta">27 Apr, 2015 - web-development, tutorial</p>
+  </header>
+
+  <article class="post-content">
+    <p>This is my own personal first look into AngularJS. After seeing it crop up many times over the past year I finally decided to have a look and see if it is of any benefit to my current work application project. Working from <a href="https://angularjs.org/" target="_blank">AngularJS.org</a> and <a href="http://www.w3schools.com/angular/" target="_blank">W3Schools.com</a> this is my following of their guides and content.</p>
+
+<p><hr></p>
+
+<p>AngularJS is a JavaScript framework. It can be added to an HTML page with a <code>&lt;script&gt;</code> tag.
+AngularJS extends HTML attributes with Directives, and binds data to HTML with Expressions.</p>
+
+<h2>JavaScript Framework</h2>
+
+<ul>
+<li>is a JavaScript framework</li>
+<li>add with a script</li>
+</ul>
+
+<p><code>&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js&quot;&gt;&lt;/script&gt;</code></p>
+
+<ul>
+<li>extends HTML with new attributes</li>
+<li>perfect for Single Page Applications (SPAs)</li>
+</ul>
+
+<h2>Extends HTML</h2>
+
+<ul>
+<li><code>ng-app</code> - defines an Angular JS app</li>
+<li><code>ng-model</code> - binds the HTML value to app data</li>
+<li><code>ng-bind</code> - binds app data to HTML</li>
+</ul>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot;&gt;
+    &lt;p&gt;Name: &lt;input type=&quot;text&quot; ng-model=&quot;name&quot;&gt;&lt;/p&gt;
+    &lt;p ng-bind=&quot;name&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div>
+<p><hr></p>
+
+<h2>AngularJS Directives</h2>
+
+<p>Directives are HTML attributes with an <code>ng</code> prefix. Use <code>ng-init</code> to initialise variables.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;firstName=&#39;John&#39;&quot;&gt;
+    &lt;p ng-bind=&quot;firstName&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div>
+<p><em>Page output:</em></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">John
+</code></pre></div>
+<p>If you are worried about having vaild HTML code you can alway use the <code>data-ng-</code> instead of <code>ng-</code>.</p>
+
+<p><hr></p>
+
+<h2>AngularJS Expressions</h2>
+
+<p>Expressions are inside double brances: ``. It will output the data where the expression is written.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>2+3 = {{ 2 + 3 }}<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+<p><em>Page output:</em></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">2+3 = 5
+</code></pre></div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Name: <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">ng-model=</span><span class="s">&quot;name&quot;</span><span class="nt">&gt;&lt;/p&gt;</span>
+  <span class="nt">&lt;p&gt;</span>{{name}}<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+<p><hr></p>
+
+<h2>Creating an application</h2>
+
+<p>AngularJS <strong>modules</strong> define applications, <strong>controllers</strong> control the application.</p>
+
+<p><code>ng-app</code> defines the app<br>
+<code>ng-controller</code> defines the controller</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;myApp&quot;</span> <span class="na">ng-controller=</span><span class="s">&quot;myController&quot;</span><span class="nt">&gt;</span>
+    First name: <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">ng-model=</span><span class="s">&quot;firstName&quot;</span><span class="nt">&gt;&lt;br&gt;</span>
+    Surname: <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">ng-model=</span><span class="s">&quot;surname&quot;</span><span class="nt">&gt;&lt;br&gt;&lt;br&gt;</span>
+
+    Full name: {{ firstName + &quot; &quot; + surname}}
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;script&gt;</span>
+    <span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">&#39;myApp&#39;</span><span class="p">,</span> <span class="p">[]);</span>
+    <span class="nx">app</span><span class="p">.</span><span class="nx">controller</span><span class="p">(</span><span class="s1">&#39;myController&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$scope</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">$scope</span><span class="p">.</span><span class="nx">firstName</span> <span class="o">=</span> <span class="s2">&quot;Pierce&quot;</span><span class="p">;</span>
+        <span class="nx">$scope</span><span class="p">.</span><span class="nx">surname</span> <span class="o">=</span> <span class="s2">&quot;McGeough&quot;</span><span class="p">;</span>
+    <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div>
+<p><strong>So what is happening here?</strong> Lets walk through step by step what&#39;s going on.</p>
+
+<p>First we define the application</p>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">&#39;myApp&#39;</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre></div>
+<p>Then the AngularJS controllers will control the application</p>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">app</span><span class="p">.</span><span class="nx">controller</span><span class="p">(</span><span class="s1">&#39;myController&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$scope</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">$scope</span><span class="p">.</span><span class="nx">firstName</span> <span class="o">=</span> <span class="s2">&quot;Pierce&quot;</span><span class="p">;</span>
+    <span class="nx">$scope</span><span class="p">.</span><span class="nx">surname</span> <span class="o">=</span> <span class="s2">&quot;McGeough&quot;</span><span class="p">;</span>
+<span class="p">});</span>
+</code></pre></div>
+<p><hr></p>
+
+<h2>Using Expressions</h2>
+
+<p>As noted before expressions are written inside double braces: <code>{{ expression }}</code>. The expressions will bind data to HTML the same way you can use <code>ng-bind</code>.</p>
+
+<p>AngularJS will output the data exactly where is written on the page.</p>
+
+<p>Expressions within AngularJS work very much like JavaScript. They can contain literals, operators and variables.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Basic expression: {{ 2 + 2 }}<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+<p><em>Page output:</em></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Basic expression: 4
+</code></pre></div>
+<p><strong>Wana see something cool?</strong> Try removing <code>ng-app=&quot;&quot;</code> and see what the output will be</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Basic expression: {{ 2 + 2 }}<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+<p><em>Page output:</em></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Basic expression: {{ 2 + 2 }}
+</code></pre></div>
+<p><hr></p>
+
+<h2>Using Numbers</h2>
+
+<p>Now we want to try some basic math with expressions and variables. The operations work similar to JavaScript.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span> <span class="na">ng-init=</span><span class="s">&quot;width=2;height=5&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Area: {{ width * height }}<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Perimeter: {{ width + width + height + height }}<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Perimeter: {{ (width * 2) + (height * 2) }}<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+<p><em>Page output:</em></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Area: 10
+Perimeter: 14
+Perimeter: 14
+</code></pre></div>
+<p>So how does this all work? First we set two variables <strong>width=2</strong> and <strong>height=5</strong> with <code>ng-init</code>.
+<br><strong>Note: using <code>ng-init</code> is not common, but for the purpose of these notes it is fine</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;width=2;height=5&quot;&gt;
+</code></pre></div>
+<p>Next we will look at finding the area which is <em>width * height</em>. AngluarJS easily multiplies the width and the height outputing the answer.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">{{ width * height }}
+</code></pre></div>
+<p>Finally we find the perimeter <em>width + length + width + length</em>.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">{{ width + width + height + height }}
+{{ (width * 2) + (height * 2) }}
+</code></pre></div>
+<p><strong>We can achieve the same with result using <code>ng-bind</code></strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;width=2;height=5&quot;&gt;
+    &lt;p&gt;Bind Area: &lt;span ng-bind=&quot;width * height&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;p&gt;Bind Perimeter: &lt;span ng-bind=&quot;width + width + height + height&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;p&gt;Bind Perimeter: &lt;span ng-bind=&quot;(width * 2) + (height * 2)&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div>
+<p><em>Page output:</em></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Bind Area: 10
+Bind Perimeter: 14
+Bind Perimeter: 14
+</code></pre></div>
+<p><hr></p>
+
+<h2>Strings</h2>
+
+<p>Stings in AngularJS will work similar as JavaScript too. Below is an example of using both expressions and the <code>ng-bind</code> method.</p>
+
+<p>First we <code>ng-init</code> the data variables and place into the HTML.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;firstName=&#39;Pierce&#39;;lastName=&#39;McGeough&#39;&quot;&gt;
+    &lt;p&gt;Hi, my name is {{ firstName + &quot; &quot; + lastName }}&lt;/p&gt;
+    &lt;p&gt;Hi, my bind name is &lt;span ng-bind=&quot;firstName + &#39; &#39; + lastName&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div>
+<p><em>Page output:</em></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Hi, my name is Pierce McGeough
+Hi, my bind name is Pierce McGeough
+</code></pre></div>
+<p><strong>Its worth noting at this stage I am writing most of the code without looking at the actual content, just the context, as AngularJS, like JavaScript, follows distinct syntax and formatting.</strong> </p>
+
+<p><hr></p>
+
+<h2>Objects</h2>
+
+<p>Again objects in AngularJS work just the same as objects in JavaScript.</p>
+
+<p>For this we <code>ng-init</code> a new <code>person</code> object and add the details. We can then call it using object.property just like in JavaScript.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;person={firstName:&#39;Peter&#39;,lastName:&#39;Griffin&#39;}&quot;&gt;
+    &lt;p&gt;Person object name is {{ person.firstName + &quot; &quot; + person.lastName }}&lt;/p&gt;
+    &lt;p&gt;Person object bind name is &lt;span ng-bind=&quot;person.firstName + &#39; &#39; + person.lastName&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div>
+<p><em>Page output:</em></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Person object name is Peter Griffin
+Person object bind name is Peter Griffin
+</code></pre></div>
+<p><hr></p>
+
+<h2>Arrays</h2>
+
+<p>We can also build arrays like we do in JavaScript. <strong>Remember array positions start from 0</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;pints=[5,10,11,8];&quot;&gt;
+    &lt;p&gt;Peter drank {{ pints[2] }} pints&lt;/p&gt;
+    &lt;p&gt;Joe drank &lt;span ng-bind=&quot;pints[1]&quot;&gt;&lt;/span&gt; pints&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div>
+<p><em>Page output:</em></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Peter drank 11 pints
+Joe drank 10 pints
+</code></pre></div>
+  </article>
+
+</div>
+				
+			</div>
+
+			<!-- <div class="col-lg-3">
+				<div class="well">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro officia error earum assumenda, saepe voluptatum odio nobis suscipit excepturi eius nulla laboriosam facilis quis minus! Corporis voluptas neque quasi, magni ipsa vero ab voluptatem excepturi aperiam est quidem inventore voluptatum dicta aspernatur sint soluta iure possimus aliquid mollitia repellendus dolore ullam quis. Quas adipisci ullam minus aut quia sequi sit vero nulla, praesentium nihil voluptatum, obcaecati placeat expedita. Dicta ipsum ullam ipsa ducimus, expedita dignissimos nihil tempore laboriosam minus deserunt! Quisquam autem, saepe nobis asperiores cumque distinctio aspernatur dolore optio.
+					</p>
+				</div>
+			</div> -->
+		</div>
+		
+		<hr>
+
+<footer>
+	<div class="row">
+		<div class="col-lg-3">
+			<p>
+				&copy; Pierce McGeough 2015
+			</p>			
+		</div>
+	</div>
+</footer>
+
+	</div>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
