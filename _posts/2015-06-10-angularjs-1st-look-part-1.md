@@ -181,7 +181,7 @@ Perimeter: 14
 So how does this all work? First we set two variables **width=2** and **height=5** with `ng-init`.
 <br>**Note: using `ng-init` is not common, but for the purpose of these notes it is fine**
 
-```
+```html
 <div ng-app="" ng-init="width=2;height=5">
 ```
 
@@ -200,7 +200,7 @@ Finally we find the perimeter _width + length + width + length_.
 
 **We can achieve the same with result using `ng-bind`**
 
-```
+```html
 <div ng-app="" ng-init="width=2;height=5">
     <p>Bind Area: <span ng-bind="width * height"></span></p>
     <p>Bind Perimeter: <span ng-bind="width + width + height + height"></span></p>
@@ -223,7 +223,7 @@ Stings in AngularJS will work similar as JavaScript too. Below is an example of 
 
 First we `ng-init` the data variables and place into the HTML.
 
-```
+```html
 <div ng-app="" ng-init="firstName='Pierce';lastName='McGeough'">
     <p>Hi, my name is {% raw %}{{ firstName + " " + lastName }}{% endraw %}</p>
     <p>Hi, my bind name is <span ng-bind="firstName + ' ' + lastName"></span></p>
@@ -246,7 +246,7 @@ Again objects in AngularJS work just the same as objects in JavaScript.
 
 For this we `ng-init` a new `person` object and add the details. We can then call it using object.property just like in JavaScript.
 
-```
+```html
 <div ng-app="" ng-init="person={firstName:'Peter',lastName:'Griffin'}">
     <p>Person object name is {% raw %}{{ person.firstName + " " + person.lastName }}{% endraw %}</p>
     <p>Person object bind name is <span ng-bind="person.firstName + ' ' + person.lastName"></span></p>
@@ -265,7 +265,7 @@ Person object bind name is Peter Griffin
 ##Arrays
 We can also build arrays like we do in JavaScript. **Remember array positions start from 0**
 
-```
+```html
 <div ng-app="" ng-init="pints=[5,10,11,8];">
     <p>Peter drank {% raw %}{{ pints[2] }}{% endraw %} pints</p>
     <p>Joe drank <span ng-bind="pints[1]"></span> pints</p>
