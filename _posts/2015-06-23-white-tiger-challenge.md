@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  White Tiger Challenge 2015
-date:   2015-07-23 12:30:00
+date:   2015-06-23 12:30:00
 categories: [kickboxing, general]
 tags: [competition, review]
 ---
