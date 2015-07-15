@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Kickboxing
-permalink: /kickboxing/general/
+permalink: /kickboxing/training/
 ---  
 
 <ul class="post-list">
 
 	{% for post in site.categories.kickboxing %}
-		{% if post.categories contains 'kickboxing' and post.categories contains 'general' %}
+		{% if post.categories contains 'kickboxing' and post.categories contains 'training' %}
 			<li>
 				<h2>
 					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

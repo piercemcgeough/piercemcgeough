@@ -4,25 +4,60 @@
     <title>Pierce McGeough</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://piercemcgeough.github.io/piercemcgeough//</link>
-    <atom:link href="http://piercemcgeough.github.io/piercemcgeough//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Jun 2015 12:07:57 +0100</pubDate>
-    <lastBuildDate>Thu, 11 Jun 2015 12:07:57 +0100</lastBuildDate>
+    <link>//</link>
+    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 14 Jul 2015 23:20:14 +0100</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2015 23:20:14 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
+        <title>Cimac Solihull 2015</title>
+        <description>&lt;p&gt;This year I spent my 25th birthday officiating at the Cimacs in Solihull. I had attended this competition last year aswell although that time my birthday was the day before. This year I came over on the Friday evening and spent the first half of the weekend with my aunt Jennifer, squeezing in a nice wedding anniversary bbq with her friend.&lt;/p&gt;
+
+&lt;p&gt;This years competition got off to a bad start....I went to the wrong venue (last years place) but it was OK in the end as I arrived at the correct with plenty of time to get setup and running. Upon arriving I noticed a few familiar heads from back home. Sligo Mugendo and White Tigers representing the fighting Irish and doing us proud. &lt;/p&gt;
+
+&lt;p&gt;Partnered with veterns Sean Whelan, Dave Ryan (I don&amp;#39;t know how a center ref can talk to much between points....its an art form) and Tanya Ledger (there was another guy but I forget his name, sorry if you are reading this), we headed a points fighting only area. While we had the ususal losing and switching of officials that you find at almost any competition we found that what really put us off our rhythm was being given sections to run that we were not allocated. I am unsure if the sections we were given to complete were originally for other areas or completely forgot about. All in all this lead to a long day in total.&lt;/p&gt;
+
+&lt;p&gt;After a lull on the area I stopped judging on the area and focused solely on organising fighters. We had enough other officials at this stage and we started flying through the division. I think some event organisiers forget or overlook the benefits of having that extra person to get things moving.&lt;/p&gt;
+
+&lt;p&gt;Sorry if I am seeming down about this competition but when it is long and you don&amp;#39;t really have an end time to hand its one of the things that sticks out. That being said there were some great fights happening, the level is constantly growing. I never once heard of any complaints from fighters, coaches or anyone... which is not something we can say for every compeition.&lt;/p&gt;
+
+&lt;p&gt;Now to finish off with some parting words:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We need to stop relying on officials who go off to coach their fighters. Don&amp;#39;t put them down as a main official, let them be a floater and have enough full time officials to cover the area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Get an extra official on the areas&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Plan the sections and times. If you run a pre-reg only event there is no reason why you should have two sections that will clash running at the same time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pierce&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Jul 2015 13:00:00 +0100</pubDate>
+        <link>//kickboxing/general/2015/07/07/cimac-solihull.html</link>
+        <guid isPermaLink="true">//kickboxing/general/2015/07/07/cimac-solihull.html</guid>
+        
+        <category>competitions</category>
+        
+        <category>review</category>
+        
+        
+        <category>kickboxing</category>
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
         <title>Guidelines for sending email</title>
-        <description>&lt;p&gt;The following is a revision from a talk by at Smashing Conf Oxford 2014. &lt;/p&gt;
+        <description>&lt;p&gt;The following is a revision from a talk at Smashing Conf Oxford 2014. This was my second web conference that I attended. There were many great talks and this was one that stuck out in my mind as it was something I was currently working on at work.&lt;/p&gt;
 
 &lt;h3&gt;Be Responsive&lt;/h3&gt;
 
-&lt;p&gt;First we need to make sure to have a good responsive layout. Most system users will likely signup using a desktop and then receive their first email straight away, however the majority of their follow up emails will most likely be read on a mobile device.&lt;/p&gt;
+&lt;p&gt;First you need to make sure to have a good responsive layout. Most system users will likely signup using a desktop and then receive their first email straight away, however the majority of their follow up emails will most likely be read on a mobile device.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;67% of mobile internet activities is sending and receiving emails&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3&gt;Guides&lt;/h3&gt;
-
-&lt;p&gt;While most of the email templates will cover these but we need to make sure we use them correctly especially when dealing with mobile layouts. These following guides are true for both desktop and mobile email.&lt;/p&gt;
 
 &lt;p&gt;There are three general rules for mobile layouts:&lt;/p&gt;
 
@@ -40,7 +75,7 @@
 
 &lt;h3&gt;Email Types&lt;/h3&gt;
 
-&lt;p&gt;When we send emails we should note that there are four main purposes why we send them:&lt;/p&gt;
+&lt;p&gt;When you send emails you should note that there are four main purposes why you send them:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;  Buy Me&lt;/li&gt;
@@ -53,7 +88,7 @@
 
 &lt;p&gt;&lt;strong&gt;Join Me&lt;/strong&gt; – these emails are generally a notice or invitation to events. Copy in these is limited to important details and are clear for the user to see and easy to remember. Bold calls to action are used.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Read Me&lt;/strong&gt; – these are generally newsletter emails. While you may get large number to users who won’t read these you still need to make it as easy and pleasurable to read. We need to use well-written copy and make use of good typography which will help make large amounts of content easier to digest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Read Me&lt;/strong&gt; – these are generally newsletter emails. While you may get large number to users who won’t read these you still need to make it as easy and pleasurable to read. you need to use well-written copy and make use of good typography which will help make large amounts of content easier to digest.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Transactional&lt;/strong&gt; – these emails convey receipts and order info (i.e. recurly). These should be:&lt;/p&gt;
 
@@ -67,31 +102,27 @@
 
 &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;Spartan&lt;/strong&gt; – No excess design. At the most it can have the regular branding used on all emails.&lt;/p&gt;
 
-&lt;h3&gt;Our Emails&lt;/h3&gt;
+&lt;h3&gt;Choosing a Template&lt;/h3&gt;
 
-&lt;p&gt;Looking at the emails we currently send I would say we fall into those four categories. We should remember to bring across any ShowHouse branding where possible i.e. colours, logos, call to action arrow.&lt;/p&gt;
+&lt;p&gt;I think you should keep to a minimal header and footer for our email template, which internal content changing.  Logo and ‘view online’ link as header followed by the contact details, copyright info and unsubscribe link in the footer.&lt;/p&gt;
 
-&lt;h3&gt;Template&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Welcome&lt;/strong&gt; – this is a Join Me email. After the user signs up they receive this email. The important information included in this is their url, email, and (possibly) password. Bold ‘Get Started’ link the same as you use in the website. Secondary text and information can be a simple ‘Thank you for signing up’ and you should include, something like ‘This is a 14 day free trail to upgrade or cancel click here……’&lt;/p&gt;
 
-&lt;p&gt;I think we should keep to a minimal header and footer for our email template, which internal content changing.  Logo and ‘view online’ link as header followed by the contact details, copyright info and unsubscribe link in the footer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Get Started&lt;/strong&gt; – these can be sent out a day after initial signup. This is a Read Me type email but due to the nature of it (get started) should be as clear as possible and short as possible. &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Welcome&lt;/strong&gt; – this is a Join Me email. After the user signs up they receive this email. The important information included in this is their url, email, and (possibly) password. Bold ‘Get Started’ link the same as we use in the website. Secondary text and information can be a simple ‘Thank you for signing up’ and we should include, something like ‘This is a 14 day free trail to upgrade or cancel click here……’&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Invoice&lt;/strong&gt; – sent after a subscription is confirmed. This Transaction email works well as it is. If it is possible you should build it into your system themed email with a minimal style header and footer. Unsubscribe shouldn’t be an option here.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Get Started&lt;/strong&gt; – as far as I am aware this gets sent out a day after initial signup. This is a Read Me type email but due to the nature of it (get started) should be as clear as possible and short as possible. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sales&lt;/strong&gt; – used to entice the user to sign up to the system. Buy Me type email. Again you can use the Call To Action link from the website. Clear images of the product should be used i.e. screenshot of system can be used here. Don&amp;#39;t show anything too general, really showcase the product here.  You can build different campaigns to suit potential customers.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Invoice&lt;/strong&gt; – sent after a subscription is confirmed. This Transaction email works well as it is. If it is possible we should build it into our ShowHouse themed email with a minimal style header and footer. Unsubscribe shouldn’t be an option here.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sales&lt;/strong&gt; – used to entice the user to sign up to ShowHouse. Buy Me type email. Again we can use the ‘Get Started’ arrow link from the website. Clear images of the product should be used i.e. screenshot of the properties list. An image of the calendar could be too general since many systems use calendars.  We can build different campaigns to suit potential customers i.e. Resident Lettings, Residential Sales or a general ShowHouse design.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Monthly Newsletter&lt;/strong&gt; – This is a Read Me type email but once again because of its nature of being a Monthly Newsletter we can change the content slightly and introduce some Buy Me and Join Me elements too. When working with sections let us remember to keep the content easy to read using a nice typeface and meaningful images if we use them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monthly Newsletter&lt;/strong&gt; – This is a Read Me type email but once again because of its nature of being a Monthly Newsletter you can change the content slightly and introduce some Buy Me and Join Me elements too. When working with sections let us remember to keep the content easy to read using a nice typeface and meaningful images if you use them.&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Apr 2015 13:00:00 +0100</pubDate>
-        <link>http://piercemcgeough.github.io/piercemcgeough//web-development/general/2015/04/27/email-guidelines.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//web-development/general/2015/04/27/email-guidelines.html</guid>
+        <link>//web-development/general/2015/04/27/email-guidelines.html</link>
+        <guid isPermaLink="true">//web-development/general/2015/04/27/email-guidelines.html</guid>
         
         <category>email</category>
         
-        <category>responsive-email</category>
+        <category>guidlines</category>
         
         
         <category>web-development</category>
@@ -115,9 +146,8 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 &lt;li&gt;is a JavaScript framework&lt;/li&gt;
 &lt;li&gt;add with a script&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;extends HTML with new attributes&lt;/li&gt;
 &lt;li&gt;perfect for Single Page Applications (SPAs)&lt;/li&gt;
@@ -130,19 +160,19 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 &lt;li&gt;&lt;code&gt;ng-model&lt;/code&gt; - binds the HTML value to app data&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ng-bind&lt;/code&gt; - binds app data to HTML&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;div ng-app=&amp;quot;&amp;quot;&amp;gt;
-    &amp;lt;p&amp;gt;Name: &amp;lt;input type=&amp;quot;text&amp;quot; ng-model=&amp;quot;name&amp;quot;&amp;gt;&amp;lt;/p&amp;gt;
-    &amp;lt;p ng-bind=&amp;quot;name&amp;quot;&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-app=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Name: &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-model=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-bind=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;hr&gt;&lt;/p&gt;
 
 &lt;h2&gt;AngularJS Directives&lt;/h2&gt;
 
 &lt;p&gt;Directives are HTML attributes with an &lt;code&gt;ng&lt;/code&gt; prefix. Use &lt;code&gt;ng-init&lt;/code&gt; to initialise variables.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;div ng-app=&amp;quot;&amp;quot; ng-init=&amp;quot;firstName=&amp;#39;John&amp;#39;&amp;quot;&amp;gt;
-    &amp;lt;p ng-bind=&amp;quot;firstName&amp;quot;&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-app=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-init=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;firstName=&amp;#39;John&amp;#39;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-bind=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;firstName&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Page output:&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;John
@@ -241,7 +271,7 @@ Perimeter: 14
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;So how does this all work? First we set two variables &lt;strong&gt;width=2&lt;/strong&gt; and &lt;strong&gt;height=5&lt;/strong&gt; with &lt;code&gt;ng-init&lt;/code&gt;.
 &lt;br&gt;&lt;strong&gt;Note: using &lt;code&gt;ng-init&lt;/code&gt; is not common, but for the purpose of these notes it is fine&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;div ng-app=&amp;quot;&amp;quot; ng-init=&amp;quot;width=2;height=5&amp;quot;&amp;gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-app=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-init=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;width=2;height=5&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Next we will look at finding the area which is &lt;em&gt;width * height&lt;/em&gt;. AngluarJS easily multiplies the width and the height outputing the answer.&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;{{ width * height }}
@@ -251,11 +281,11 @@ Perimeter: 14
 {{ (width * 2) + (height * 2) }}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;We can achieve the same with result using &lt;code&gt;ng-bind&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;div ng-app=&amp;quot;&amp;quot; ng-init=&amp;quot;width=2;height=5&amp;quot;&amp;gt;
-    &amp;lt;p&amp;gt;Bind Area: &amp;lt;span ng-bind=&amp;quot;width * height&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-    &amp;lt;p&amp;gt;Bind Perimeter: &amp;lt;span ng-bind=&amp;quot;width + width + height + height&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-    &amp;lt;p&amp;gt;Bind Perimeter: &amp;lt;span ng-bind=&amp;quot;(width * 2) + (height * 2)&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-app=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-init=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;width=2;height=5&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Bind Area: &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-bind=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;width * height&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Bind Perimeter: &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-bind=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;width + width + height + height&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Bind Perimeter: &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-bind=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;(width * 2) + (height * 2)&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Page output:&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Bind Area: 10
@@ -269,10 +299,10 @@ Bind Perimeter: 14
 &lt;p&gt;Stings in AngularJS will work similar as JavaScript too. Below is an example of using both expressions and the &lt;code&gt;ng-bind&lt;/code&gt; method.&lt;/p&gt;
 
 &lt;p&gt;First we &lt;code&gt;ng-init&lt;/code&gt; the data variables and place into the HTML.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;div ng-app=&amp;quot;&amp;quot; ng-init=&amp;quot;firstName=&amp;#39;Pierce&amp;#39;;lastName=&amp;#39;McGeough&amp;#39;&amp;quot;&amp;gt;
-    &amp;lt;p&amp;gt;Hi, my name is {{ firstName + &amp;quot; &amp;quot; + lastName }}&amp;lt;/p&amp;gt;
-    &amp;lt;p&amp;gt;Hi, my bind name is &amp;lt;span ng-bind=&amp;quot;firstName + &amp;#39; &amp;#39; + lastName&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-app=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-init=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;firstName=&amp;#39;Pierce&amp;#39;;lastName=&amp;#39;McGeough&amp;#39;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Hi, my name is {{ firstName + &amp;quot; &amp;quot; + lastName }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Hi, my bind name is &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-bind=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;firstName + &amp;#39; &amp;#39; + lastName&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Page output:&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Hi, my name is Pierce McGeough
@@ -287,10 +317,10 @@ Hi, my bind name is Pierce McGeough
 &lt;p&gt;Again objects in AngularJS work just the same as objects in JavaScript.&lt;/p&gt;
 
 &lt;p&gt;For this we &lt;code&gt;ng-init&lt;/code&gt; a new &lt;code&gt;person&lt;/code&gt; object and add the details. We can then call it using object.property just like in JavaScript.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;div ng-app=&amp;quot;&amp;quot; ng-init=&amp;quot;person={firstName:&amp;#39;Peter&amp;#39;,lastName:&amp;#39;Griffin&amp;#39;}&amp;quot;&amp;gt;
-    &amp;lt;p&amp;gt;Person object name is {{ person.firstName + &amp;quot; &amp;quot; + person.lastName }}&amp;lt;/p&amp;gt;
-    &amp;lt;p&amp;gt;Person object bind name is &amp;lt;span ng-bind=&amp;quot;person.firstName + &amp;#39; &amp;#39; + person.lastName&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-app=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-init=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;person={firstName:&amp;#39;Peter&amp;#39;,lastName:&amp;#39;Griffin&amp;#39;}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Person object name is {{ person.firstName + &amp;quot; &amp;quot; + person.lastName }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Person object bind name is &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-bind=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;person.firstName + &amp;#39; &amp;#39; + person.lastName&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Page output:&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Person object name is Peter Griffin
@@ -301,18 +331,20 @@ Person object bind name is Peter Griffin
 &lt;h2&gt;Arrays&lt;/h2&gt;
 
 &lt;p&gt;We can also build arrays like we do in JavaScript. &lt;strong&gt;Remember array positions start from 0&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;div ng-app=&amp;quot;&amp;quot; ng-init=&amp;quot;pints=[5,10,11,8];&amp;quot;&amp;gt;
-    &amp;lt;p&amp;gt;Peter drank {{ pints[2] }} pints&amp;lt;/p&amp;gt;
-    &amp;lt;p&amp;gt;Joe drank &amp;lt;span ng-bind=&amp;quot;pints[1]&amp;quot;&amp;gt;&amp;lt;/span&amp;gt; pints&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-app=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-init=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;pints=[5,10,11,8];&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Peter drank {{ pints[2] }} pints&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Joe drank &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ng-bind=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;pints[1]&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/span&amp;gt;&lt;/span&gt; pints&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Page output:&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Peter drank 11 pints
 Joe drank 10 pints
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         <pubDate>Mon, 27 Apr 2015 13:00:00 +0100</pubDate>
-        <link>http://piercemcgeough.github.io/piercemcgeough//web-development/tutorial/2015/04/27/angularjs-1st-look-part-1.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//web-development/tutorial/2015/04/27/angularjs-1st-look-part-1.html</guid>
+        <link>//web-development/tutorial/2015/04/27/angularjs-1st-look-part-1.html</link>
+        <guid isPermaLink="true">//web-development/tutorial/2015/04/27/angularjs-1st-look-part-1.html</guid>
+        
+        <category>angularjs</category>
         
         
         <category>web-development</category>
@@ -338,29 +370,13 @@ Joe drank 10 pints
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Mar 2015 20:59:52 +0000</pubDate>
-        <link>http://piercemcgeough.github.io/piercemcgeough//web-development/general/2015/03/20/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//web-development/general/2015/03/20/welcome-to-jekyll.html</guid>
+        <link>//web-development/general/2015/03/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">//web-development/general/2015/03/20/welcome-to-jekyll.html</guid>
+        
+        <category>jekyll</category>
         
         
         <category>web-development</category>
-        
-        <category>general</category>
-        
-      </item>
-    
-      <item>
-        <title>Junior National Championships</title>
-        <description></description>
-        <pubDate>Fri, 20 Mar 2015 12:00:00 +0000</pubDate>
-        <link>http://piercemcgeough.github.io/piercemcgeough//kickboxing/general/2015/03/20/kbi-juniors.html</link>
-        <guid isPermaLink="true">http://piercemcgeough.github.io/piercemcgeough//kickboxing/general/2015/03/20/kbi-juniors.html</guid>
-        
-        <category>national-championsips</category>
-        
-        <category>juniors</category>
-        
-        
-        <category>kickboxing</category>
         
         <category>general</category>
         

@@ -11,10 +11,10 @@
 	<title>Pierce McGeough &ndash; AngularJs - 1st look, part 1</title>
 	<meta name="description" content="This is my own personal first look into AngularJS. After seeing it crop up many times over the past year I finally decided to have a look and see if it is of...">
 
-	<link rel="stylesheet" href="http://piercemcgeough.github.io/piercemcgeough/css/main.css">
-	<link rel="canonical" href="http://piercemcgeough.github.io/piercemcgeough//web-development/tutorial/2015/04/27/angularjs-1st-look-part-1.html">
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="canonical" href="//web-development/tutorial/2015/04/27/angularjs-1st-look-part-1.html">
 
-	<link rel="alternate" type="application/rss+xml" title="Pierce McGeough" href="http://piercemcgeough.github.io/piercemcgeough//feed.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Pierce McGeough" href="//feed.xml" />
 </head>
 
 
@@ -44,8 +44,8 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="/kickboxing">All</a></li>
             <li><a href="/kickboxing/general" >General</a></li>
-            <li><a href="/kickboxing">Nutrition</a></li>
-            <li><a href="/kickboxing/workouts">Workouts</a></li>
+            <li><a href="/kickboxing/nutrition">Nutrition</a></li>
+            <li><a href="/kickboxing/training">Training</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -69,7 +69,10 @@
 
   <header class="post-header">
     <h1 class="post-title">AngularJs - 1st look, part 1</h1>
-    <p class="post-meta">27 Apr, 2015 - web-development, tutorial</p>
+    <p class="post-meta">
+    	27 Apr, 2015 - web-development, tutorial -
+    	angularjs
+    </p>
   </header>
 
   <article class="post-content">
@@ -86,9 +89,8 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 <li>is a JavaScript framework</li>
 <li>add with a script</li>
 </ul>
-
-<p><code>&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js&quot;&gt;&lt;/script&gt;</code></p>
-
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div>
 <ul>
 <li>extends HTML with new attributes</li>
 <li>perfect for Single Page Applications (SPAs)</li>
@@ -101,19 +103,19 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 <li><code>ng-model</code> - binds the HTML value to app data</li>
 <li><code>ng-bind</code> - binds app data to HTML</li>
 </ul>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot;&gt;
-    &lt;p&gt;Name: &lt;input type=&quot;text&quot; ng-model=&quot;name&quot;&gt;&lt;/p&gt;
-    &lt;p ng-bind=&quot;name&quot;&gt;&lt;/p&gt;
-&lt;/div&gt;
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Name: <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">ng-model=</span><span class="s">&quot;name&quot;</span><span class="nt">&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">ng-bind=</span><span class="s">&quot;name&quot;</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
 </code></pre></div>
 <p><hr></p>
 
 <h2>AngularJS Directives</h2>
 
 <p>Directives are HTML attributes with an <code>ng</code> prefix. Use <code>ng-init</code> to initialise variables.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;firstName=&#39;John&#39;&quot;&gt;
-    &lt;p ng-bind=&quot;firstName&quot;&gt;&lt;/p&gt;
-&lt;/div&gt;
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span> <span class="na">ng-init=</span><span class="s">&quot;firstName=&#39;John&#39;&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">ng-bind=</span><span class="s">&quot;firstName&quot;</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
 </code></pre></div>
 <p><em>Page output:</em></p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">John
@@ -212,7 +214,7 @@ Perimeter: 14
 </code></pre></div>
 <p>So how does this all work? First we set two variables <strong>width=2</strong> and <strong>height=5</strong> with <code>ng-init</code>.
 <br><strong>Note: using <code>ng-init</code> is not common, but for the purpose of these notes it is fine</strong></p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;width=2;height=5&quot;&gt;
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span> <span class="na">ng-init=</span><span class="s">&quot;width=2;height=5&quot;</span><span class="nt">&gt;</span>
 </code></pre></div>
 <p>Next we will look at finding the area which is <em>width * height</em>. AngluarJS easily multiplies the width and the height outputing the answer.</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">{{ width * height }}
@@ -222,11 +224,11 @@ Perimeter: 14
 {{ (width * 2) + (height * 2) }}
 </code></pre></div>
 <p><strong>We can achieve the same with result using <code>ng-bind</code></strong></p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;width=2;height=5&quot;&gt;
-    &lt;p&gt;Bind Area: &lt;span ng-bind=&quot;width * height&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-    &lt;p&gt;Bind Perimeter: &lt;span ng-bind=&quot;width + width + height + height&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-    &lt;p&gt;Bind Perimeter: &lt;span ng-bind=&quot;(width * 2) + (height * 2)&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span> <span class="na">ng-init=</span><span class="s">&quot;width=2;height=5&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Bind Area: <span class="nt">&lt;span</span> <span class="na">ng-bind=</span><span class="s">&quot;width * height&quot;</span><span class="nt">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Bind Perimeter: <span class="nt">&lt;span</span> <span class="na">ng-bind=</span><span class="s">&quot;width + width + height + height&quot;</span><span class="nt">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Bind Perimeter: <span class="nt">&lt;span</span> <span class="na">ng-bind=</span><span class="s">&quot;(width * 2) + (height * 2)&quot;</span><span class="nt">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
 </code></pre></div>
 <p><em>Page output:</em></p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">Bind Area: 10
@@ -240,10 +242,10 @@ Bind Perimeter: 14
 <p>Stings in AngularJS will work similar as JavaScript too. Below is an example of using both expressions and the <code>ng-bind</code> method.</p>
 
 <p>First we <code>ng-init</code> the data variables and place into the HTML.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;firstName=&#39;Pierce&#39;;lastName=&#39;McGeough&#39;&quot;&gt;
-    &lt;p&gt;Hi, my name is {{ firstName + &quot; &quot; + lastName }}&lt;/p&gt;
-    &lt;p&gt;Hi, my bind name is &lt;span ng-bind=&quot;firstName + &#39; &#39; + lastName&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span> <span class="na">ng-init=</span><span class="s">&quot;firstName=&#39;Pierce&#39;;lastName=&#39;McGeough&#39;&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Hi, my name is {{ firstName + &quot; &quot; + lastName }}<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Hi, my bind name is <span class="nt">&lt;span</span> <span class="na">ng-bind=</span><span class="s">&quot;firstName + &#39; &#39; + lastName&quot;</span><span class="nt">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
 </code></pre></div>
 <p><em>Page output:</em></p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">Hi, my name is Pierce McGeough
@@ -258,10 +260,10 @@ Hi, my bind name is Pierce McGeough
 <p>Again objects in AngularJS work just the same as objects in JavaScript.</p>
 
 <p>For this we <code>ng-init</code> a new <code>person</code> object and add the details. We can then call it using object.property just like in JavaScript.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;person={firstName:&#39;Peter&#39;,lastName:&#39;Griffin&#39;}&quot;&gt;
-    &lt;p&gt;Person object name is {{ person.firstName + &quot; &quot; + person.lastName }}&lt;/p&gt;
-    &lt;p&gt;Person object bind name is &lt;span ng-bind=&quot;person.firstName + &#39; &#39; + person.lastName&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span> <span class="na">ng-init=</span><span class="s">&quot;person={firstName:&#39;Peter&#39;,lastName:&#39;Griffin&#39;}&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Person object name is {{ person.firstName + &quot; &quot; + person.lastName }}<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Person object bind name is <span class="nt">&lt;span</span> <span class="na">ng-bind=</span><span class="s">&quot;person.firstName + &#39; &#39; + person.lastName&quot;</span><span class="nt">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
 </code></pre></div>
 <p><em>Page output:</em></p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">Person object name is Peter Griffin
@@ -272,10 +274,10 @@ Person object bind name is Peter Griffin
 <h2>Arrays</h2>
 
 <p>We can also build arrays like we do in JavaScript. <strong>Remember array positions start from 0</strong></p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div ng-app=&quot;&quot; ng-init=&quot;pints=[5,10,11,8];&quot;&gt;
-    &lt;p&gt;Peter drank {{ pints[2] }} pints&lt;/p&gt;
-    &lt;p&gt;Joe drank &lt;span ng-bind=&quot;pints[1]&quot;&gt;&lt;/span&gt; pints&lt;/p&gt;
-&lt;/div&gt;
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">&quot;&quot;</span> <span class="na">ng-init=</span><span class="s">&quot;pints=[5,10,11,8];&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Peter drank {{ pints[2] }} pints<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Joe drank <span class="nt">&lt;span</span> <span class="na">ng-bind=</span><span class="s">&quot;pints[1]&quot;</span><span class="nt">&gt;&lt;/span&gt;</span> pints<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
 </code></pre></div>
 <p><em>Page output:</em></p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">Peter drank 11 pints
@@ -312,6 +314,9 @@ Joe drank 10 pints
 
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>

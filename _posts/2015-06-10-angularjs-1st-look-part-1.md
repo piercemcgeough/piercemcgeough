@@ -3,7 +3,7 @@ layout: post
 title:  AngularJs - 1st look, part 1
 date:   2015-04-27 12:00:00
 categories: [web-development, tutorial]
-published: true
+tags: [angularjs]
 ---
 
 This is my own personal first look into AngularJS. After seeing it crop up many times over the past year I finally decided to have a look and see if it is of any benefit to my current work application project. Working from <a href="https://angularjs.org/" target="_blank">AngularJS.org</a> and <a href="http://www.w3schools.com/angular/" target="_blank">W3Schools.com</a> this is my following of their guides and content.
