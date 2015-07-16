@@ -6,108 +6,9 @@
 </description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2015 10:40:26 +0100</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2015 10:40:26 +0100</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2015 14:08:10 +0100</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2015 14:08:10 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Learning Laravel 5.1 - Installing and Setup</title>
-        <description>&lt;p&gt;This is the first in a series of Laravel tutorials. My aim is to split them up into independant tutorials that you can pick up at any time&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;#c_composer&quot;&gt;Composer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#c_vb_vmware&quot;&gt;VirtualBox &amp;amp; VMware&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#c_homestead&quot;&gt;Homestead&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#c_laravel&quot;&gt;Laravel&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;Composer&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;download curl&lt;/p&gt;
-
-&lt;p&gt;php composer.phar&lt;/p&gt;
-
-&lt;p&gt;composer&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;mv composer.phar /usr/local/bin/composer&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;set to go&lt;/p&gt;
-
-&lt;h2&gt;VirtualBox &amp;amp; VMware&lt;a name=&quot;c_vb_vmare&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2&gt;Homestead&lt;a name=&quot;c_homestead&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2&gt;Laravel&lt;a name=&quot;c_laravel&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-</description>
-        <pubDate>Mon, 27 Jun 2016 13:00:00 +0100</pubDate>
-        <link>//web-development/tutorial/2016/06/27/learning-laravel-5.1.html</link>
-        <guid isPermaLink="true">//web-development/tutorial/2016/06/27/learning-laravel-5.1.html</guid>
-        
-        
-        <category>web-development</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>7 Months of Competitions</title>
-        <description>&lt;p&gt;Already in the second half of the year... that just flew by. Here is a short list of competitions and shows I have attended and my thoughts on these.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1 - Mugendo Juniors&lt;/strong&gt;&lt;br&gt;
-I have a great love for this competition so I may be biased with my remarks. Put on by my organisation Mugendo Association of Ireland and run by chief organiser Michael Mc Dermott this competition is one of the largest junior only comptitions I have ever seen. Due to the size it can take just as long to run this as it does another competition with both juniors and seniors competiting. A great competition for both novice and advanced fighters.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2 - KBI Seniors Round 1&lt;/strong&gt;&lt;br&gt;
-The first step to world championship glory. With the WAKO World Championships being hosted in Dublin Ireland, this year saw a huge turn out for fighters who wanted to get their names on this years squad for a chance to win the world championship on home soil. It was all business in Leixslip this day with everyone showing a great deal of respect for each other at this vital competition.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3 - Irish Open&lt;/strong&gt;&lt;br&gt;
-Three days of pure kickboxing entertainment and fun. This is the biggest and best competition going bar none. The atmosphere, love, hype and belonging all come together at this yearly open which supports the NSPCC in Ireland. Top fighters come from all over the world to support this great event.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4 - KBI Juniors&lt;/strong&gt;&lt;br&gt;
-Another hard day at the office. No friendly competition today. All juniors here today were hoping to secure a place on the junior squad that will later represent Ireland at the WAKO European Championships in Spain.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5 - Mugendo Seniors&lt;/strong&gt;&lt;br&gt;
-This was our senior championships. This year we had a smaller crowd than usual. We made use of The Dojo, Cookstown for this event. An intimate event well enjoyed by all who attended. This was another good competition for novice fighters.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;6 - KBI Seniors Round 2&lt;/strong&gt;&lt;br&gt;
-The second round of the seniors took place in Carrickmacross. There is something about here. I always enjoy coming here and there always seems to be such a positive atmosphere here. Today I spent most of my time on the full contact section, filling in a few points and light contact fights once I was available.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;7 - Munster Open&lt;/strong&gt;&lt;br&gt;
-I quite enjoyed this one. I made a long weekend of this and stayed down with my aunt who lives only 15 minutes or so from the venue. I was surprised to see how many travelled so far for this event. Another short event packed with good quality fighting.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;8 - Yokoso Dutch Open&lt;/strong&gt;&lt;br&gt;
-This is the highlight of my year kickboxing. My first time refereeing outside of the Ireland and the UK. It was a great experience to get to work as one of the &amp;quot;International Referees&amp;quot;, and the first time I was working with people I did not know. We were looked after very well by hosts Gina, Alex and their crew. I will be looking forward to this event next year.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;9 - UK Top Ten&lt;/strong&gt;&lt;br&gt;
-Have to say this was my least favourite outing of the year so far. While it was a good competition attacting big names it never felt the full package for me. That is probably for two reasons. 1st of all I was coming straight from the Dutch Open the previous day and I was starting to feel the tiredness set in. It was also part of a larger event - The BodyPower Exo and to me it felt like we were a side event away from everything else. I would like to try it again going straight to it not coming from somewhere else.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;10 - KBI 4 Provinces&lt;/strong&gt;&lt;br&gt;
-What a night this was. The first round of the KBI 4 Provinces league saw a great undercard full of top Irish talent. All put on a great show before Ulster took on Connaght. This event saw Ulster squeeze out the victory by one point. A catchweight low kick and Irish K1 title fight finished out a night of brilliant competition.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;11 - KBI Fight Offs&lt;/strong&gt;&lt;br&gt;
-The day after the KBI 4 provinces night I had to head back down for some of the KBI national fight offs. Should have stayed over for that one. Another in and out job. There were two light contact and two points fighting fight offs today. It was nice to get to see the training venue for TMA.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;12 - White Tiger Challenge&lt;/strong&gt;&lt;br&gt;
-This two day event really catches the meaning of what martial arts is for me. Much more than just a competition this event really brings people together as a family. With smooth runnings and great people involved all over this event is a must for all fighters, coaches, officials, parents and fans.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;13 - CIMAC Super League&lt;/strong&gt;&lt;br&gt;
-This competition was a good hard day of work. In and get the job done. Unfortunately I had to leave before it all finished up but it is great to always meet up with the British officials and competitiors. These guys know how to enjoy themselves while still getting down to business. It may be my last one for a while as I gave two years in a row to it and I want to try and get to some other events.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;br&gt;
-&lt;em&gt;It all adds up time on the road. Along with regular training at home this is a large part of my life and I enjoy every moment of it. There are bumps along the road but it&amp;#39;s all worth it.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Looking forward to the rest of the year&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 08 Jul 2015 13:00:00 +0100</pubDate>
-        <link>//kickboxing/general/2015/07/08/7-months-of-competitions.html</link>
-        <guid isPermaLink="true">//kickboxing/general/2015/07/08/7-months-of-competitions.html</guid>
-        
-        
-        <category>kickboxing</category>
-        
-        <category>general</category>
-        
-      </item>
     
       <item>
         <title>Cimac Solihull 2015</title>
@@ -120,6 +21,8 @@ This competition was a good hard day of work. In and get the job done. Unfortuna
 &lt;p&gt;After a lull on the area I stopped judging on the area and focused solely on organising fighters. We had enough other officials at this stage and we started flying through the division. I think some event organisiers forget or overlook the benefits of having that extra person to get things moving.&lt;/p&gt;
 
 &lt;p&gt;Sorry if I am seeming down about this competition but when it is long and you don&amp;#39;t really have an end time to hand its one of the things that sticks out. That being said there were some great fights happening, the level is constantly growing. I never once heard of any complaints from fighters, coaches or anyone... which is not something we can say for every compeition.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;* Highlight of the day was Nev shouting at Fish to move and clear the area. Back to school bud?&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Now to finish off with some parting words:&lt;/p&gt;
 

@@ -16,6 +16,8 @@ After a lull on the area I stopped judging on the area and focused solely on org
 
 Sorry if I am seeming down about this competition but when it is long and you don't really have an end time to hand its one of the things that sticks out. That being said there were some great fights happening, the level is constantly growing. I never once heard of any complaints from fighters, coaches or anyone... which is not something we can say for every compeition.
 
+<em>* Highlight of the day was Nev shouting at Fish to move and clear the area. Back to school bud?</em>
+
 Now to finish off with some parting words:
 
 * We need to stop relying on officials who go off to coach their fighters. Don't put them down as a main official, let them be a floater and have enough full time officials to cover the area.
