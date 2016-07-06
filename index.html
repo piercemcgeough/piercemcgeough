@@ -1,16 +1,27 @@
----
-layout: default
-title: Home
----  
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Pierce McGeough (dot) co (dot) uk coming soon" />
+    <meta name="keywords" content="web, development, consultancy, design, website, web app" />
 
-<ul class="post-list">
-	{% for post in site.posts %}
-		<li>
-			<h2>
-				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</h2>
-			<span class="post-meta">{{ post.date | date: " %-d %b, %Y" }} - {% for category in post.categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
-			{{ post.excerpt }}
-		</li>
-	{% endfor %}
-</ul>
+    <title>Coming Sooner or later | Pierce McGeough</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="coming-soon">
+
+        <h1>Coming Sooner or Later</h1>
+
+        <p>Coming soon for all your web development and consultancy needs.</p>
+        <p>Consultancy and Development to help get your website or online product up and running.</p>
+
+        <a href=" https://twitter.com/PierceMcGeough" title="Visit Pierce McGeough on Twitter" class="twitter center">PierceMcGeough</a>
+
+    </div>
+
+</body>
+</html>
