@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#me">Me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
@@ -58,16 +58,18 @@
 
     <div class="container-fluid p-0">
 
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="me">
             <div class="w-100">
                 <h1 class="mb-0">
                     Pierce
                     <span class="text-primary">McGeough</span>
                 </h1>
-                <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                    <a href="mailto:name@email.com">name@email.com</a>
+                <div class="subheading mb-5">123 New Street, Somewhere
+                    <a href="mailto:name@email.com">pmcgeough@hotmail.co.uk</a>
                 </div>
-                <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                <p class="lead mb-5">
+                    Testing out jigsaw by tightenco and netlify.
+                </p>
                 <div class="social-icons">
                     <a href="#">
                         <i class="fab fa-linkedin-in"></i>
