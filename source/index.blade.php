@@ -8,5 +8,12 @@
         <p>Consultancy and Development to help get your website or online product up and running.</p>
 
         <a href="https://twitter.com/PierceMcGeough" title="Visit Pierce McGeough on Twitter" class="center">@PierceMcGeough</a>
+
+        <br><br>
+
+        <p>Coming soon for all your website development and consultancy needs.</p>
+        <p>Consultancy and Development to help get your website or online product up and running.</p>
+
+        <a href="https://twitter.com/PierceMcGeough" title="Visit Pierce McGeough on Twitter" class="center">@PierceMcGeough</a>
     </div>
 @endsection
