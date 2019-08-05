@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-    </head>
-    <body>
-        @yield('body')
-    </body>
+<html>
+<head>
+    <title>Pierce McGeough</title>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+</head>
+<body id="top">
+    @yield('body')
+</body>
 </html>
