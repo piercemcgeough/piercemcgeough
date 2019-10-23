@@ -7,24 +7,27 @@
                 Pierce
                 <span class="text-primary">McGeough</span>
             </h1>
-            <div class="subheading mb-5">123 New Street, Somewhere
-                <a href="mailto:name@email.com">pmcgeough@hotmail.co.uk</a>
+            <div class="subheading mb-5">
+                <a href="">
+                    {{ $page->my_details->phone }}
+                </a>
+                |
+                <a href="mailto:name@email.com">
+                    {{ $page->my_details->email }}
+                </a>
             </div>
             <p class="lead mb-5">
                 Testing out jigsaw by tightenco and netlify.
             </p>
             <div class="social-icons">
-                <a href="#">
+                <a href="{{ $page->my_details->linkedIn }}">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a href="#">
+                <a href="{{ $page->my_details->github }}">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="#">
+                <a href="{{ $page->my_details->twitter }}">
                     <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-facebook-f"></i>
                 </a>
             </div>
         </div>

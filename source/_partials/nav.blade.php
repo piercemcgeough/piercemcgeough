@@ -2,7 +2,9 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Pierce McGeough</span>
         <span class="d-none d-lg-block">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://www.usetilt.com/wp-content/uploads/2019/03/Pierce-McGeough.jpg" alt="Pierce McGeough">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="https://www.usetilt.com/assets/tilt/img/pages/team/pierce-mcgeough.jpg"
+                    alt="Pierce McGeough">
         </span>
     </a>
 
