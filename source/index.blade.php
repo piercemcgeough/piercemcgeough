@@ -9,11 +9,9 @@
             </h1>
             <div class="subheading mb-5">
                 <a href="">
-                    {{ $page->my_details->phone }}
                 </a>
                 |
                 <a href="mailto:name@email.com">
-                    {{ $page->my_details->email }}
                 </a>
             </div>
             <p class="lead mb-5">
